@@ -56,22 +56,22 @@ const setDOBHandler = () =>{
 
       dateOfBirth = dateString ? new Date(dateString) : null;
 
-      const year = localStorage.getItem("year");
-      const month = localStorage.getItem("month");
-      const date = localStorage.getItem("date");
+      // const year = localStorage.getItem("year");
+      // const month = localStorage.getItem("month");
+      // const date = localStorage.getItem("date");
 
-      if(year && month && date){
-        console.log({
-          year,month,date
-        });
-        dateOfBirth = new Date(year,month,date)
-      }
+      // if(year && month && date){
+      //   console.log({
+      //     year,month,date
+      //   });
+      //   dateOfBirth = new Date(year,month,date)
+      // }
 
       if(dateOfBirth){
 
-         localStorage.setItem("year",dateOfBirth.getFullYear());
-         localStorage.setItem("month",dateOfBirth.getMonth());
-         localStorage.setItem("date",dateOfBirth.getDate());
+        //  localStorage.setItem("year",dateOfBirth.getFullYear());
+        //  localStorage.setItem("month",dateOfBirth.getMonth());
+        //  localStorage.setItem("date",dateOfBirth.getDate());
        
         initialTextEl.classList.add('hide')
         afterDOBBtnTextEl.classList.remove('hide')
