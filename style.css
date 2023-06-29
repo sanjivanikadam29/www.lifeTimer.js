@@ -21,10 +21,10 @@ html,body{
 .container{
     display: grid;
     place-items: center;
-    height: 100vh;
-    display: flex;
+    /* height: 100vh; */
+    /* display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center; */
 }
 .container h1{
     font-size: 4rem;
@@ -78,4 +78,15 @@ html,body{
 .time-container div{
     font-size: 4rem;
     color: white;
+}
+
+
+@media screen and (max-width:400px) {
+
+      .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    
 }
