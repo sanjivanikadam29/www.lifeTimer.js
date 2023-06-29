@@ -21,10 +21,8 @@ html,body{
 .container{
     display: grid;
     place-items: center;
-    /* height: 100vh; */
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: center; */
+    height: 100vh;
+    
 }
 .container h1{
     font-size: 4rem;
