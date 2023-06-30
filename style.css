@@ -83,6 +83,7 @@ html,body{
 
     .container h1{
         font-size: 2rem;
+        margin-left: 20px;
     }
 
     .time-container h2{
@@ -93,6 +94,10 @@ html,body{
     .time-container div{
         font-size: 2rem;
         color: white;
+    }
+    .time-container{
+        gap: 2.5rem;
+        flex-wrap: wrap;
     }
     
 }
