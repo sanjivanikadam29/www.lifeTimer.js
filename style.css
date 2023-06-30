@@ -81,13 +81,18 @@ html,body{
 
 @media screen and (max-width:400px) {
 
-      .background{
-        background-image: url('./images/mountain.jpg');
-        height: 100vh;
-        width: 100%;
-        background-size: cover;
-        background-repeat: no-repeat;
+    .container h1{
+        font-size: 2rem;
+    }
 
-      }
+    .time-container h2{
+        line-height: 50px;
+        text-align: center;
+        font-size: 2rem;
+    }
+    .time-container div{
+        font-size: 2rem;
+        color: white;
+    }
     
 }
